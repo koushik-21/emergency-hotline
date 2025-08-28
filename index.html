@@ -23,7 +23,7 @@
             </div>
             <div class="  flex gap-6 items-center">
                 <div class=" flex gap-1 px-4 py-1 rounded-2xl bg-green-100 ">
-                    <p class=" font-bold text-sm ">0</p>
+                    <p class=" font-bold text-sm " id="heart-count">0</p>
                     <img src="assets/heart.png" alt="" class="w-6 h-6 ">
                 </div>
                 <div class=" flex gap-1 px-3 py-1 rounded-2xl bg-green-100 ">
@@ -31,7 +31,7 @@
                     <img src="assets/coin.png" alt="" class="w-6 h-6 ">
                 </div>
                 <div class=" flex gap-1 px-6 py-1 rounded-2xl" style="background-color: #00A63E;">
-                    <p class=" font-semibold text-sm h-6 text-white"><span>2</span> Copy</p>
+                    <p class=" font-semibold text-sm h-6 text-white"><span id="copy-counterX">0</span> Copy</p>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100  text-gray-600">All</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button class="border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-one" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
                         <button id="call-national-emergency"class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
@@ -87,7 +87,7 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100  text-gray-600">Police</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button class="border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-two" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
                         <button id="call-police-number" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
@@ -108,7 +108,7 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100  text-gray-600">Fire</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button class="border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-three" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
                         <button id="call-fire-service" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
@@ -129,7 +129,7 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100 text-gray-600">Health</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button class="border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-four" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
                         <button id="call-ambulance-service" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
@@ -150,7 +150,7 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100 text-gray-600">Help</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button class="border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-five" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
                         <button id="call-wAndC-helpline" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
@@ -168,10 +168,10 @@
                         <p class="font-bold pt-2" id="anti-corruption">Anti-Corruption Helpline</p>
                         <p class="text-sm text-gray-600">Anti-Corruption</p>
                         <p class="font-bold pt-3 text-xl " id="anti-corruption-number">106</p>
-                        <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100">Govt.</p>
+                        <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100  text-gray-600">Govt.</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button class="border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-six" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
                         <button id="call-anti-corruption" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
@@ -192,7 +192,7 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100 text-gray-600">Electricity</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button class="border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-seven" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
                         <button id="call-electricity-helpline" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
@@ -210,10 +210,10 @@
                         <p class="font-bold pt-2" id="brac-helpline">Brac Helpline</p>
                         <p class="text-sm text-gray-600">Brac</p>
                         <p class="font-bold pt-3 text-xl " id="brac-helpline-number">16445</p>
-                        <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100">NGO</p>
+                        <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100  text-gray-600">NGO</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button class="border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-eight" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
                         <button id="call-brac-helpline" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
@@ -231,10 +231,10 @@
                         <p class="font-bold pt-2" id="bdRailway-helpline">Bangladesh Railway Helpline</p>
                         <p class="text-sm text-gray-600" >Bangladesh Railway</p>
                         <p class="font-bold pt-3 text-xl " id="bdRailway-helpline-number">163</p>
-                        <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100">Travel</p>
+                        <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100  text-gray-600">Travel</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button class="border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-nine" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
                         <button id="call-bdRailway-helpline" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
