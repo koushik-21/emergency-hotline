@@ -16,12 +16,12 @@
 <body>
     <header>
         <!-- navbar section -->
-        <div class="flex justify-between px-12 py-2">
-            <div class=" flex gap-2 ">
-                <img src="assets/logo.png" alt="" class="w-16 h-16 p-2 ">
-                <h1 class="font-extrabold text-2xl " style="color:#006747">Emergency <br> Service</h1>
+        <div class="flex justify-between px-2 lg:px-12 py-2">
+            <div class=" flex gap-0 lg:gap-2 ">
+                <img src="assets/logo.png" alt="" class="w-14 lg:w-16 h-14 lg:h-16 p-2 ">
+                <h1 class="font-extrabold text-xl lg:text-2xl " style="color:#006747">Emergency <br> Service</h1>
             </div>
-            <div class="  flex gap-6 items-center">
+            <div class="  flex gap-2 lg:gap-6 items-center">
                 <div class=" flex gap-1 px-4 py-1 rounded-2xl bg-green-100 ">
                     <p class=" font-bold text-sm " id="heart-count">0</p>
                     <img src="assets/heart.png" alt="" class="w-6 h-6 ">
@@ -30,7 +30,7 @@
                     <p class=" font-bold text-sm " id="coin">100</p>
                     <img src="assets/coin.png" alt="" class="w-6 h-6 ">
                 </div>
-                <div class=" flex gap-1 px-6 py-1 rounded-2xl" style="background-color: #00A63E;">
+                <div class=" flex gap-1 px-3 lg:px-6 py-1 rounded-2xl" style="background-color: #00A63E;">
                     <p class=" font-semibold text-sm h-6 text-white"><span id="copy-counterX">0</span> Copy</p>
                 </div>
             </div>
@@ -41,18 +41,18 @@
                 <div class="flex justify-center items-center">
                     <img src="assets/logo.png" alt="" class="w-20 h-20 border-2 rounded-full">
                 </div>
-                <p class=" text-2xl font-bold mt-2">Emergency Service Directory</p>
-                <p class=" mt-2 text-xm ">Government Emergency Services at Your Fingertip – A Project by Government of
+                <p class="text-xl lg:text-2xl font-bold mt-2">Emergency Service Directory</p>
+                <p class=" mt-2 text-sm ">Government Emergency Services at Your Fingertip – A Project by Government of
                     the People’s Republic of Bangladesh</p>
             </div>
         </div>
     </header>
     <main>
         <!-- card section -->
-        <div class="w-full flex px-12 py-4 gap-4 bg-green-50 mb-5">
-            <div class="w-3/4 grid grid-cols-3">
+        <div class="w-full flex flex-col lg:flex-row px-2 lg:px-12 py-4 gap-4 bg-green-50 mb-5">
+            <div class="w-full lg:w-3/4 grid grid-cols-2 lg:grid-cols-3 ">
                 <!-- 1st -->
-                <div class="p-4  m-1 border-blue-800 bg-white rounded-xl">
+                <div class="p-2 lg:p-4  m-1 border-blue-800 bg-white rounded-xl ">
                     <div class=" flex justify-between ">
                         <div class="">
                             <img src="assets/emergency.png" alt="" class=" bg-red-100 p-2 h-12 w-12 rounded-2xl">
@@ -66,14 +66,14 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100  text-gray-600">All</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button id="btn-one" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-one" class="cpy-btn border border-gray-300 px-6 lg:px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
-                        <button id="call-national-emergency"class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
+                        <button id="call-national-emergency"class="px-6 lg:px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
                     </div>
                 </div>
                 <!-- 2nd -->
-                <div class="p-4  m-1 border-blue-800 bg-white rounded-xl">
+                <div class="p-2 lg:p-4  m-1 border-blue-800 bg-white rounded-xl ">
                     <div class=" flex justify-between ">
                         <div class="">
                             <img src="assets/police.png" alt="" class=" bg-blue-100 p-2 h-12 w-12 rounded-2xl">
@@ -87,14 +87,14 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100  text-gray-600">Police</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button id="btn-two" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-two" class="cpy-btn border border-gray-300 px-6 lg:px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
-                        <button id="call-police-number" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
+                        <button id="call-police-number" class=" px-6 lg:px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
                     </div>
                 </div>
                 <!-- 3rd -->
-                <div class="p-4  m-1 border-blue-800 bg-white rounded-xl">
+                <div class="p-2 lg:p-4 m-1 border-blue-800 bg-white rounded-xl">
                     <div class=" flex justify-between ">
                         <div class="">
                             <img src="assets/fire-service.png" alt="" class=" bg-red-100 p-2 h-12 w-12 rounded-2xl">
@@ -108,14 +108,14 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100  text-gray-600">Fire</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button id="btn-three" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-three" class="cpy-btn border border-gray-300 px-6 lg:px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
-                        <button id="call-fire-service" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
+                        <button id="call-fire-service" class=" px-6 lg:px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
                     </div>
                 </div>
                 <!-- 4th -->
-                <div class="p-4  m-1 border-blue-800 bg-white rounded-xl">
+                <div class="p-2 lg:p-4  m-1 border-blue-800 bg-white rounded-xl">
                     <div class=" flex justify-between ">
                         <div class="">
                             <img src="assets/ambulance.png" alt="" class=" bg-red-100 p-2 h-12 w-12 rounded-2xl">
@@ -129,14 +129,14 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100 text-gray-600">Health</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button id="btn-four" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-four" class="cpy-btn border border-gray-300 px-6 lg:px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
-                        <button id="call-ambulance-service" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
+                        <button id="call-ambulance-service" class=" px-6 lg:px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
                     </div>
                 </div>
                 <!-- 5th -->
-                <div class="p-4  m-1 border-blue-800 bg-white rounded-xl">
+                <div class="p-2 lg:p-4 m-1 border-blue-800 bg-white rounded-xl">
                     <div class=" flex justify-between ">
                         <div class="">
                             <img src="assets/emergency.png" alt="" class=" bg-red-100 p-2 h-12 w-12 rounded-2xl">
@@ -150,14 +150,14 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100 text-gray-600">Help</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button id="btn-five" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-five" class="cpy-btn border border-gray-300 px-6 lg:px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
-                        <button id="call-wAndC-helpline" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
+                        <button id="call-wAndC-helpline" class=" px-6 lg:px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
                     </div>
                 </div>
                 <!-- 6th -->
-                <div class="p-4  m-1 border-blue-800 bg-white rounded-xl">
+                <div class="p-2 lg:p-4  m-1 border-blue-800 bg-white rounded-xl">
                     <div class=" flex justify-between ">
                         <div class="">
                             <img src="assets/emergency.png" alt="" class=" bg-red-100 p-2 h-12 w-12 rounded-2xl">
@@ -171,14 +171,14 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100  text-gray-600">Govt.</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button id="btn-six" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-six" class="cpy-btn border border-gray-300 px-6 lg:px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
-                        <button id="call-anti-corruption" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
+                        <button id="call-anti-corruption" class=" px-6 lg:px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
                     </div>
                 </div>
                 <!-- 7th -->
-                <div class="p-4  m-1 border-blue-800 bg-white rounded-xl">
+                <div class="p-2 lg:p-4 m-1 border-blue-800 bg-white rounded-xl">
                     <div class=" flex justify-between ">
                         <div class="">
                             <img src="assets/emergency.png" alt="" class=" bg-red-100 p-2 h-12 w-12 rounded-2xl">
@@ -192,14 +192,14 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100 text-gray-600">Electricity</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button id="btn-seven" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-seven" class="cpy-btn border border-gray-300 px-6 lg:px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
-                        <button id="call-electricity-helpline" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
+                        <button id="call-electricity-helpline" class=" px-6 lg:px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
                     </div>
                 </div>
                 <!-- 8th -->
-                <div class="p-4  m-1 border-blue-800 bg-white rounded-xl">
+                <div class="p-2 lg:p-4  m-1 border-blue-800 bg-white rounded-xl">
                     <div class=" flex justify-between ">
                         <div class="">
                             <img src="assets/emergency.png" alt="" class=" bg-red-100 p-2 h-12 w-12 rounded-2xl">
@@ -213,14 +213,14 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100  text-gray-600">NGO</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button id="btn-eight" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-eight" class="cpy-btn border border-gray-300 px-6 lg:px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
-                        <button id="call-brac-helpline" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
+                        <button id="call-brac-helpline" class=" px-6 lg:px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
                     </div>
                 </div>
                 <!-- 9th -->
-                <div class="p-4  m-1 border-blue-800 bg-white rounded-xl">
+                <div class="p-2 lg:p-4 m-1 border-blue-800 bg-white rounded-xl">
                     <div class=" flex justify-between ">
                         <div class="">
                             <img src="assets/emergency.png" alt="" class=" bg-red-100 p-2 h-12 w-12 rounded-2xl">
@@ -234,21 +234,21 @@
                         <p class=" inline px-3 rounded-xl py-1 text-sm bg-gray-100  text-gray-600">Travel</p>
                     </div>
                     <div class="mt-5 mb-1 flex  justify-between items-center  border-amber-600">
-                        <button id="btn-nine" class="cpy-btn border border-gray-300 px-9 py-1 rounded text-gray-600 text-sm"> <i
+                        <button id="btn-nine" class="cpy-btn border border-gray-300 px-6 lg:px-9 py-1 rounded text-gray-600 text-sm"> <i
                                 class="fa-regular fa-copy rotate-90"></i> Copy</button>
-                        <button id="call-bdRailway-helpline" class=" px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
+                        <button id="call-bdRailway-helpline" class="px-6 lg:px-9 py-1 rounded text-white text-sm " style="background-color: #00A63E;"><i
                                 class="fa-solid fa-phone"></i> Call</button>
                     </div>
                 </div>
 
             </div>
-            <div class="w-1/4  bg-white rounded-xl">
-                <div class="flex px-2 py-5 justify-between">
+            <div class="w-full lg:w-1/4  bg-white rounded-xl">
+                <div class="flex px-1 lg:px-2 py-2 lg:py-5 justify-between">
                     <div>
                         <p class="py-2 font-semibold"><i class="fa-regular fa-clock"></i> Call History</p>
                     </div>
                     <div>
-                        <button class=" px-8 py-2 rounded-2xl text-white text-sm" id="clear-history"
+                        <button class="px-4 lg:px-8 py-2 rounded-2xl text-white text-sm" id="clear-history"
                             style="background-color: #00A63E; ">Clear</button>
                     </div>
                 </div>
